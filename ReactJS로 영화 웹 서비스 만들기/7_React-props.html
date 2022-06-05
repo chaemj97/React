@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.development.js "></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <!-- props types -->
+  <script src="https://unpkg.com/prop-types@15.7.2/prop-types.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    const root = document.getElementById("root");
+    // class,for : JS, className, htmlFor : JSX
+    // fontSize = 16 : fontSize의 default 16
+    function Btn({text,fontSize = 16,changeValue}){
+      console.log(text,'was rendered')
+      return (
+        <button 
+          onClick={changeValue}
+          style={{
+            backgroundColor:"tomato",
+            color:"white",
+            padding:'10px 20px',
+            border:0,
+            borderRadius:10,
+            fontSize
+          }}>{text}</button>
+      );
+    };
+    // const MemorizedBtn = React.memo(Btn);
+    // 리렌더링 필요없는 것은 안 해줌
+    // <MemorizedBtn text={value} big={true} changeValue={changeValue}/>
+    // <MemorizedBtn text="Continue" big={false}/>
+    
+    // pops 타입이 뭐고 어떤 모양이어야 하는지를 우리가 설명
+    Btn.propTypes = {
+      text: PropTypes.string.isRequired,
+      // .isRequired : 반드시 존재해야 하는 props
+      fontSize: PropTypes.number
+    }
+    function App(){
+      const [value,setValue] = React.useState("Save Changes");
+      const changeValue = () => setValue("Revert Changes");
+      return (
+        <div>
+          <Btn text={value} changeValue={changeValue} fontSize={18}/>
+          <Btn text={"Continue"}/>
+        </div>
+      );
+    };
+    ReactDOM.render(<App />, root);
+  </script>
+</html>
