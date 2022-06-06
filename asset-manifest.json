@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/React.git/static/js/main.bd205159.js",
-    "index.html": "/React.git/index.html",
-    "main.bd205159.js.map": "/React.git/static/js/main.bd205159.js.map"
+    "main.js": "/React/static/js/main.bd205159.js",
+    "index.html": "/React/index.html",
+    "main.bd205159.js.map": "/React/static/js/main.bd205159.js.map"
   },
   "entrypoints": [
     "static/js/main.bd205159.js"
