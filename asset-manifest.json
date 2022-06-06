@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/React/ReactJS%EB%A1%9C%EC%98%81%ED%99%94%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A7%8C%EB%93%A4%EA%B8%B0/movie-app/static/js/main.bd205159.js",
-    "index.html": "/React/ReactJS%EB%A1%9C%EC%98%81%ED%99%94%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A7%8C%EB%93%A4%EA%B8%B0/movie-app/index.html",
-    "main.bd205159.js.map": "/React/ReactJS%EB%A1%9C%EC%98%81%ED%99%94%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A7%8C%EB%93%A4%EA%B8%B0/movie-app/static/js/main.bd205159.js.map"
+    "main.js": "/React.git/static/js/main.bd205159.js",
+    "index.html": "/React.git/index.html",
+    "main.bd205159.js.map": "/React.git/static/js/main.bd205159.js.map"
   },
   "entrypoints": [
     "static/js/main.bd205159.js"
