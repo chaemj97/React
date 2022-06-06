@@ -69,3 +69,11 @@ push전
 수정 후 업테이트 하고 싶다면
 
 npm run deploy
+
+
+
+### Breaking Change
+
+버전을 업데이트 하면서 코드가 깨져서 코드를 수정해야함
+
+React.js에는 없음
