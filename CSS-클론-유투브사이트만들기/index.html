@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Mobile</title>
+  <script src="https://kit.fontawesome.com/1a60e57402.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- <script> 태그의 defer 속성은 페이지가 모두 로드된 후에 해당 외부 스크립트가 실행됨을 명시 -->
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <i class="fa fa-youtube"></i>
+      <span class="title">Youtube</span>
+    </div>
+    <div class="icons">
+      <i class="fa fa-search"></i>
+      <i class="fa fa-ellipsis-v"></i>
+    </div>
+  </header>
+
+  <!-- Video Player -->
+  <section class="player">
+    <video controls src="video/video.mp4"></video>
+  </section>
+
+  <div class="infoAndUpNext">
+    <!-- Video Info -->
+    <section class="info">
+      <!-- Metadata -->
+      <div class="metadata">
+        <ul class="hashtages">
+          <li>#잘생긴</li>
+          <li>#서강준</li>
+          <li>#좋다</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title clamp">
+            서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다
+            서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다
+            서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다
+          </span>
+          <button class="moreBtn">
+            <i class="fa fa-caret-down"></i>
+          </button>
+        </div>
+        <span class="views">1M views 1 month ago</span>
+      </div>
+      <!-- Actions -->
+      <div class="actions">
+        <li>
+          <button><i class="active fa fa-thumbs-up"></i><span>1K</span></button></li>
+        <li>
+          <button><i class="fa fa-thumbs-down"></i><span>0</span></button></li>
+        <li>
+          <button><i class="fa fa-share"></i><span>Share</span></button></li>
+        <li>
+          <button><i class="fa fa-plus"></i><span>Save</span></button></li>
+        <li>
+          <button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+      </div>
+      <!-- Channel Description -->
+      <div class="channel">
+        <div class="metadata">
+          <img src="image/0.jpg" alt="">
+          <div class="info">
+            <span class="name">서강준</span>
+            <span class="subscribe">100M subscribers</span>
+          </div>
+        </div>
+        <button class="subscribe">subscribe</button>
+      </div>
+    </section>
+    <!-- UpNext -->
+    <section class="upNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <div class="img"><img src="image/1.jpg" alt=""></div>
+          
+          <div class="info">
+            <span class="title">서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다</span>
+            <span class="name">서강준</span>
+            <span class="views">100M subscribers</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="image/2.jpg" alt=""></div>
+          <div class="info">
+            <span class="title">서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다</span>
+            <span class="name">서강준</span>
+            <span class="views">100M subscribers</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="image/3.jpg" alt=""></div>
+          <div class="info">
+            <span class="title">서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다 서강준 잘생겼다</span>
+            <span class="name">서강준</span>
+            <span class="views">100M subscribers</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa fa-ellipsis-v"></i>
+          </button>
+        </li>
+      </ul>
+    </section>
+  </div>
+  
+</body>
+</html>

@@ -60,7 +60,7 @@ package.json의 scripts의 build : 실행하면 우리 웹사이트의 productio
 
 push전 
 
-1. package.json 마지막에 ,"homepage" : "https://chaemj97.github.io/React.git"
+1. package.json 마지막에 ,"homepage" : "https://username.github.io/React.git"
 2. packgae.json scripts에 ,"deploy":"gh-pages -d build", "predeploy": "npm run build"
    1. deploy :  우리가 방금 설치한 gh-pages를 실행시키고 "build"라는 디렉토리를 가져가기
       1. gh-pages가 build 폴더를 homepage에 적힌 웹사이트에 업로드
@@ -69,6 +69,12 @@ push전
 수정 후 업테이트 하고 싶다면
 
 npm run deploy
+
+
+
+### username찾기
+
+git config --global user.name
 
 
 
