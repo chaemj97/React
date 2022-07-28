@@ -137,7 +137,7 @@ const App = () => {
             return (
               <MyRow key={index}>
                 <MyMessage>
-                  {message.body}
+                  {yourID} : {message.body}
                 </MyMessage>
               </MyRow>
             )
@@ -145,7 +145,7 @@ const App = () => {
           return (
             <PartnerRow key={index}>
               <PartnerMessage>
-                {message.body}
+                {message.id} : {message.body}
               </PartnerMessage>
             </PartnerRow>
           )

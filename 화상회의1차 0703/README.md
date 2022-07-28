@@ -20,7 +20,30 @@
 
 
 
-- ## **socket.io**
+- ## yarn
+
+  - javascirpt 의 package manager
+
+  - 설치
+
+    ```
+    npm install -g yarn
+    ```
+
+  - 패키지 설치
+
+    - 자동으로 package.json 파일에 저장
+
+    ```
+    yarn add <package>
+    
+    // 현 프로젝트에 필요한 설치
+    yarn add yarn add simple-peer socket.io-client @material-ui/core @material-ui/icons react-copy-to-clipboard
+    ```
+
+    
+
+- ## **socket.io** : 서버와 클라이언트 연결
 
   - event_name은 개발자가 임의로 설정 가능
 
@@ -109,29 +132,6 @@
         ```
 
 
-
-- ## yarn
-
-  - javascirpt 의 package manager
-
-  - 설치
-
-    ```
-    npm install -g yarn
-    ```
-
-  - 패키지 설치
-
-    - 자동으로 package.json 파일에 저장
-
-    ```
-    yarn add <package>
-    
-    // 현 프로젝트에 필요한 설치
-    yarn add yarn add simple-peer socket.io-client @material-ui/core @material-ui/icons react-copy-to-clipboard
-    ```
-
-    
 
 - app.js
 
